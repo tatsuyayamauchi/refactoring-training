@@ -1,0 +1,19 @@
+{
+    "name": "refactoring2nd",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start": "babel-node main.js",
+        "test": "jest",
+        "test:watch": "jest --watchAll"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.17.8",
+        "@babel/preset-env": "^7.16.11",
+        "babel-loader": "^8.2.4",
+        "eslint": "^8.11.0",
+        "jest": "^27.5.1",
+        "prettier": "^2.6.0"
+    }
+}
